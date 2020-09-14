@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="115.18046"
+   height="548.58081"
+   viewBox="0 0 744.09449 0"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="balaoAgua.svg"
+   inkscape:export-filename="C:\wamp64\www\infonutri\img\balaoAgua.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4153"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#6c6c6c;stop-opacity:1;"
+         offset="0"
+         id="stop4155" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.67779421"
+     inkscape:cx="-368.60179"
+     inkscape:cy="168.5269"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1.40977,-701.07178)">
+    <path
+       style="fill:#c6c6c6;fill-opacity:1;stroke:#898989;stroke-width:6.19999981;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 29.244145,704.17178 0,442.26552 a 54.489651,54.489651 0 0 0 -24.7343751,45.627 54.489651,54.489651 0 0 0 54.4902341,54.4883 54.489651,54.489651 0 0 0 54.490226,-54.4883 54.489651,54.489651 0 0 0 -24.734367,-45.5938 l 0,-442.29872 -59.511718,0 z"
+       id="path4136"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g5284"
+       transform="translate(-79.094932,6.9999583)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4169"
+         d="m 118.77523,1231.1041 c -11.82652,-5.5015 -22.988064,-17.2077 -27.238304,-28.5675 -7.30027,-19.5117 -3.30895,-36.9525 12.096534,-52.8577 l 9.69758,-10.0122 0,-219.22 0,-219.22 25.40623,0 25.40622,0 0,219.7442 0,219.7442 8.29275,8.0597 c 10.86064,10.5553 15.75241,21.7588 15.75241,36.0775 0,18.4895 -9.21513,34.4267 -25.38552,43.9032 -11.50147,6.7403 -32.21211,7.8451 -44.0279,2.3486 z"
+         style="fill:#008080;fill-opacity:1;stroke:none;stroke-width:7.95599985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="745.5968"
+         x="124.11057"
+         height="372.63782"
+         width="7.2589207"
+         id="rect4734"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:7.95599985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="774.14081"
+         x="124.29584"
+         height="78.487083"
+         width="6.8052378"
+         id="rect4736"
+         style="fill:#bdffff;fill-opacity:1;stroke:none;stroke-width:7.95599985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,114 @@
+.gridAgua {
+    background: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(1, lfr);
+    grid-template-areas: "overlap"; 
+}
+   
+
+#balaoFundo{
+    height: 548px;
+    width: 104px;
+    background-image: url("img/balaoFundo3.png");
+    grid-area: overlap;
+    align-self: center;
+    justify-self: center;
+}
+
+#balaoAgua{
+    height: 549px;
+    width: 115px;
+    background-image: url("img/balaoAgua.png");
+    grid-area: overlap;
+    align-self: center;
+    justify-self: center;
+
+}
+
+Arquivo teste 1
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form action="resultado.php" method="post">
+    Pesquisar: <input type="text" id="pesquisar" name="pesquisar" placeholder="pesquisar">
+    <input type="submit" value="ENVIAR">
+</form>
+</body>
+</html>
+
+Arquivo Resultado 1
+
+<?php
+$serviror = "localhost";
+$usuario = "root";
+$senha = "";
+$dbname = "infonutri";
+
+$conn = mysqli_connect($serviror, $usuario, $senha, $dbname);
+
+$pesquisar = $_POST ['pesquisar'];
+//echo $pesquisar;
+
+$result_pesquisa = "select * from composto where nome LIKE '%$pesquisar%' LIMIT 2";
+$resultado_pesquisa = mysqli_query($conn, $result_pesquisa);
+
+while ($row_nome = mysqli_fetch_array($resultado_pesquisa))
+{
+    echo "Nome: ".$row_nome['nome'].'<br>';
+}
+?>
+
+tabela index
+<tr>
+    <td class="opacidade5">Nome</td>
+</tr>
+<tr>
+    <td class="opacidade5">Calorias (KJ)</td>
+</tr>
+<tr>
+    <td class="opacidade5">Proteínas</td>
+</tr>
+<tr>
+    <td class="opacidade5">Lipídeos</td>
+</tr>
+<tr>
+    <td class="opacidade5">Colestoral</td>
+</tr>
+<tr>
+    <td class="opacidade5">Carboidratos</td>
+</tr>
+<tr>
+    <td class="opacidade5">Fibra Alimentar</td>
+</tr>
+<tr>
+    <td class="opacidade5">Cálcio</td>
+</tr>
+<tr>
+    <td class="opacidade5">Fósforo</td>
+</tr>
+<tr>
+    <td class="opacidade5">Ferro</td>
+</tr>
+<tr>
+    <td class="opacidade5">Sódio</td>
+</tr>
+<tr>
+    <td class="opacidade5">Potássio</td>
+</tr>
+<tr>
+    <td class="opacidade5">Zinco</td>
+</tr>
+
+
+1 insert na refeicao
+2 exibir a refeicao(uma outra pagina)
+select * from refeicao r,usuario u where r.ref_user_cod = u.user_cod and r.ref_user_cod = $id
+3-Inserir os alimentos na refeição
+
