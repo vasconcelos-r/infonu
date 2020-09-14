@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178043589-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-178043589-1');
+</script>
+
 	<title>InfoNutri</title>
 	<?php
 		include("default.php");
@@ -9,6 +19,7 @@
     <?php
         session_start();
     ?>
+	
 </head>
 <body>
 	<?php
